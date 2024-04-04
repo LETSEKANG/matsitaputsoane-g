@@ -1,0 +1,132 @@
+/* Reset styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: black;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+}
+
+/* Section styles */
+section {
+  margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+/* Style for service containers */
+.service-container {
+  margin-bottom: 20px;
+}
+
+/* Style for service images */
+.service-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  max-height: 200px; /* Set maximum height for the images */
+}
+/* CSS styles for the portfolio */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 1rem 2rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: #333; /* Darker gray on hover */
+}
+
+main {
+  padding: 2rem;
+}
+
+/* Service container styles */
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  flex: 0 0 50%; /* Two items per row */
+  padding: 1rem;
+}
+
+.service-item img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+/* Service description styles */
+.service-description {
+  flex: 1; /* Take remaining space */
+}
+/* Style for service images */
+.service-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-right: 20px; /* Add margin to the right */
+  float: left; /* Float images to the left */
+}
